@@ -15,9 +15,12 @@ body {
 }
 
 p, h1, h2, h3, h4, h5, h6 {margin: 0;}
-ul, ol {
+ul {
   padding-left: 0;
   margin: 0;
+}
+img {
+  display: block;
 }
 
 .list {
@@ -27,6 +30,17 @@ ul, ol {
 .link {
   text-decoration: none;
 }
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: 0 auto;
+  background-color: tomato;
+}
+
 
 .visually-hidden {
   position: absolute;
@@ -42,6 +56,9 @@ ul, ol {
 }
 
 /* ---------------------Шапка сайта--------------------- */
+.header {
+}
+
 .header-logo {
   font-family: 'Raleway'
   font-weight: 700;
@@ -50,6 +67,8 @@ ul, ol {
   letter-spacing: 0.03em;
   color: var(--web-color);
 }
+
+
 
 .header-accent {
   color: var(--studio-color);
@@ -95,6 +114,8 @@ ul, ol {
 .hero {
   background: var(--background-color);
 }
+
+
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -104,27 +125,10 @@ ul, ol {
   text-transform: uppercase;
   color: var(--secondary-color);
   background-color: var(--background-color);
-}
+  margin-left: auto;
+  margin-right: auto;
+  width: ;
 
-.hero-btn {
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: var(--secondary-color);
-  background: var(--web-color);
-  cursor: pointer;
-}
-
-
-.hero-btn:hover,
-.hero-btn:focus {
-  color: var(--secondary-color);
-  background-color: var(--btn-color);
 }
 
 /* ---------------------Преимущества--------------------- */
@@ -187,22 +191,7 @@ ul, ol {
 
 /* ---------------------Фильтр поиска--------------------- */
 
-.btn-filter {
-  font-family: 'Roboto';
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.63;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--main-color);
-  cursor: pointer;
-}
 
-.btn-filter:hover,
-.btn-filter:focus {
-  color: var(--filter-color);
-  background-color: var(--web-color);
-}
 
 /* ---------------------Примеры работ--------------------- */
 
@@ -219,6 +208,44 @@ ul, ol {
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--text-color);
+}
+/* ---------------------Кнопка--------------------------- */
+
+.hero-btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--secondary-color);
+  background: var(--web-color);
+  cursor: pointer;
+}
+
+
+.hero-btn:hover,
+.hero-btn:focus {
+  color: var(--secondary-color);
+  background-color: var(--btn-color);
+}
+.btn-filter {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+  cursor: pointer;
+}
+
+.btn-filter:hover,
+.btn-filter:focus {
+  color: var(--filter-color);
+  background-color: var(--web-color);
 }
 
 /* ---------------------Футер--------------------- */
@@ -238,7 +265,7 @@ ul, ol {
   color: var(--web-color);
 }
 
-.footer-logo-span {
+.footer-span {
   color: var(--secondary-color);
 }
 
