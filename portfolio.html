@@ -29,20 +29,24 @@
             Web<span class="accent">Studio</span></a
           >
           <ul class="header-list list">
-            <li><a class="header-link link" href="./index.html">Студия</a></li>
-            <li>
-              <a class="header-link link" href="./portfolio.html">Портфолио</a>
+            <li class="header-link link">
+              <a class="header-item" href="./index.html">Студия</a>
             </li>
-            <li><a class="header-link link" href="">Контакты</a></li>
+            <li class="header-link link">
+              <a class="header-item" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="header-link link">
+              <a class="header-item" href="">Контакты</a>
+            </li>
           </ul>
         </nav>
         <ul class="header-contact list">
-          <li>
+          <li class="contact-list">
             <a class="header-mail link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
-          <li>
+          <li class="contact-list">
             <a class="header-tel link" href="tel:+380961111111"
               >+38 096 111 11 11</a
             >
@@ -53,69 +57,89 @@
     <!-- Фильтр поиска -->
     <main>
       <section class="section">
-        <h1 class="visually-hidden">Фильтр поиска</h1>
         <div class="container">
+          <h1 class="visually-hidden">Фильтр поиска</h1>
           <ul class="btn list">
-            <li><button class="btn-filter" type="button">Все</button></li>
-            <li>
+            <li class="btn-item">
+              <button class="btn-filter" type="button">Все</button>
+            </li>
+            <li class="btn-item">
               <button class="btn-filter" type="button">Веб-сайты</button>
             </li>
-            <li>
+            <li class="btn-item">
               <button class="btn-filter" type="button">Приложения</button>
             </li>
-            <li><button class="btn-filter" type="button">Дизайн</button></li>
-            <li>
+            <li class="btn-item">
+              <button class="btn-filter" type="button">Дизайн</button>
+            </li>
+            <li class="btn-item">
               <button class="btn-filter" type="button">Маркетинг</button>
             </li>
           </ul>
-        </div>
-        <!-- Примеры работ -->
-        <div class="container">
+          <!-- Примеры работ -->
           <ul class="examples list">
             <li class="examples-item">
               <img src="./images/img4.jpg" alt="веб-сайт" width="370" />
-              <h2 class="examples-title">Технокряк</h2>
-              <p class="examples-text">Веб-сайт</p>
+              <div class="container-examples">
+                <h2 class="examples-title">Технокряк</h2>
+                <p class="examples-text">Веб-сайт</p>
+              </div>
             </li>
             <li class="examples-item">
               <img src="./images/img5.jpg" alt="баскетбол" width="370" />
-              <h2 class="examples-title">Постер New Orlean vs Golden Star</h2>
-              <p class="examples-text">Дизайн</p>
+              <div class="container-examples">
+                <h2 class="examples-title">Постер New Orlean vs Golden Star</h2>
+                <p class="examples-text">Дизайн</p>
+              </div>
             </li>
             <li class="examples-item">
               <img src="./images/img6.jpg" alt="рыба" width="370" />
-              <h2 class="examples-title">Ресторан Seafood</h2>
-              <p class="examples-text">Приложение</p>
+              <div class="container-examples">
+                <h2 class="examples-title">Ресторан Seafood</h2>
+                <p class="examples-text">Приложение</p>
+              </div>
             </li>
             <li class="examples-item">
               <img src="./images/img7.jpg" alt="наушники" width="370" />
-              <h2 class="examples-title">Проект Prime</h2>
-              <p class="examples-text">Маркетинг</p>
+              <div class="container-examples">
+                <h2 class="examples-title">Проект Prime</h2>
+                <p class="examples-text">Маркетинг</p>
+              </div>
             </li>
             <li class="examples-item">
               <img src="./images/img8.jpg" alt="ящики" width="370" />
-              <h2 class="examples-title">Проект Boxes</h2>
-              <p class="examples-text">Приложение</p>
+              <div class="container-examples">
+                <h2 class="examples-title">Проект Boxes</h2>
+                <p class="examples-text">Приложение</p>
+              </div>
             </li>
             <li class="examples-item">
               <img src="./images/img9.jpg" alt="монитор" width="370" />
-              <h2 class="examples-title">Inspiration has no Borders</h2>
-              <p class="examples-text">Веб-сайт</p>
+              <div class="container-examples">
+                <h2 class="examples-title">Inspiration has no Borders</h2>
+                <p class="examples-text">Веб-сайт</p>
+              </div>
             </li>
             <li class="examples-item">
               <img src="./images/img10.jpg" alt="книга" width="370" />
-              <h2 class="examples-title">Издание Limited Edition</h2>
-              <p class="examples-text">Дизайн</p>
+              <div class="container-examples">
+                <h2 class="examples-title">Издание Limited Edition</h2>
+                <p class="examples-text">Дизайн</p>
+              </div>
             </li>
             <li class="examples-item">
               <img src="./images/img11.jpg" alt="лейбл" width="370" />
-              <h2 class="examples-title">Проект LAB</h2>
-              <p class="examples-text">Маркетинг</p>
+              <div class="container-examples">
+                <h2 class="examples-title">Проект LAB</h2>
+                <p class="examples-text">Маркетинг</p>
+              </div>
             </li>
             <li class="examples-item">
               <img src="./images/img12.jpg" alt="ноутбук" width="370" />
-              <h2 class="examples-title">Growing Business</h2>
-              <p>Приложение</p>
+              <div class="container-examples">
+                <h2 class="examples-title">Growing Business</h2>
+                <p>Приложение</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -127,7 +151,7 @@
         <a class="footer-logo link" href="./index.html">
           Web<span class="footer-span">Studio</span></a
         >
-        <address>
+        <address class="address">
           <ul class="footer-adress list">
             <li class="footer-list">
               <a
@@ -138,12 +162,12 @@
                 >г. Киев, пр-т Леси Украинки, 26</a
               >
             </li>
-            <li>
+            <li class="footer-list">
               <a class="footer-list-mail link" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
-            <li>
+            <li class="footer-list">
               <a class="footer-list-tel link" href="tel:+380961111111"
                 >+38 096 111 11 11</a
               >
